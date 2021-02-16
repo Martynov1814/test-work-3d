@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon">
+  <title>Top 3D Group</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container-color">
+        <div class="header-contacts">
+          <div class="header-left">
+            <div class="header-select-city">
+              <select class="select-city" name="city" id="input-select">
+                <option value="Санкт-Петербург">Санкт-Петербург</option>
+                <option value="Москва">Москва</option>
+              </select>
+            </div>
+            <a href="tel:+78126135838" class="header-tel-number">+7 (812) 613-58-38</a>
+            <span class="time-work">Пн–пт 10:00–19:00, сб-вс 10:00–17:00</span>
+          </div>
+          <div class="header-right">
+            <a href="#" class="header-write-us">Напишите нам</a>
+            <!-- /.write-us -->
+            <a href="#" class="header-contact-director">Свяжитесь с директором</a>
+            <!-- /.contact-director -->
+            <div class="header-social-links">
+              <a href="#" class="social-link">
+                <img src="assets/img/social-icon/telegram.svg" alt="telegram" class="img-social-link">
+              </a>
+              <!-- /.social-link -->
+              <a href="#" class="social-link">
+                <img src="assets/img/social-icon/skype.svg" alt="skype" class="img-social-link">
+              </a>
+              <!-- /.social-link -->
+              <a href="#" class="social-link">
+                <img src="assets/img/social-icon/whatsapp.svg" alt="whatsapp" class="img-social-link">
+              </a>
+              <!-- /.social-link -->
+            </div>
+            <!-- /.social-links -->
+          </div>
+          <!-- /.header-right -->
+        </div>
+      </div>
+      <!-- /.container-color -->
+      <div class="header-search">
+        <div class="header-search-left">
+          <div class="menu-button"></div>
+          <a href="#" class="header-logo">
+            <img src="assets/img/logo.svg" alt="logo" class="header-logo-img">
+          </a>
+          <span class="header-tagline">Ваш эксперт
+            на рынке <span class="red">3D</span>-техники</span>
+          <a href="#" class="header-yandex">
+            <img src="assets/img/img-link/yandex-recom.png" alt="recommendation from yandex" class="header-yandex-img">
+          </a>
+          <div class="header-search-icon">
+            <img src="assets/img/button/search-icon.svg" alt="search icon" class="search-icon-img">
+          </div>
+          <form class="header-search-form">
+            <div class="search-form-wrapper">
+              <input type="text" class="search-input" placeholder="Введите запрос, например, Formlabs Form 2">
+              <button name="search" type="submit" class="search-input-button">Найти</button>
+            </div>
+          </form>
+        </div>
+        <div class="header-search-right">
+          <button class="header-login-button">
+            <img src="assets/img/button/login.svg" alt="icon login" class="header-login-icon">
+            <span class="header-login-text">Войти</span>
+          </button>
+          <button class="header-bascet-button">
+            <img src="assets/img/button/bascet.svg" alt="icon bascet" class="header-bascet-icon">
+            <span class="header-bascet-text">Корзина пуста</span>
+          </button>
+        </div>
+        
+      </div>
+      <!-- /.header-search -->
+      <div class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">Акции</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">О нас</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">Мероприятия</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">Оплата и доставка</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">Что с моим заказом?</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">Гос. закупки</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">Блог</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">Мастер-классы</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">Контакты</a>
+          </li>
+        </ul>
+        
+      </div>
+      <!-- /.header-nav -->
+      <hr class="grey-line">
+      <!-- /.grey-line -->
+      <div class="assortment">
+        <ul class="goods">
+          <li class="good">
+            <a href="#" class="good-name">3D-принтеры</a>
+            <svg width="10" height="6" class="good-icon">
+              <use xlink:href="assets/img/button/icons.svg#good-icon"></use>
+            </svg>
+          </li>
+          <li class="good">
+            <a href="#" class="good-name">3D-сканеры</a>
+            <svg width="10" height="6" class="good-icon">
+              <use xlink:href="assets/img/button/icons.svg#good-icon"></use>
+            </svg>
+          </li>
+          <li class="good">
+            <a href="#" class="good-name">Станки</a>
+            <svg width="10" height="6" class="good-icon">
+              <use xlink:href="assets/img/button/icons.svg#good-icon"></use>
+            </svg>
+          </li>
+          <li class="good">
+            <a href="#" class="good-name">Роботы</a>
+            <svg width="10" height="6" class="good-icon">
+              <use xlink:href="assets/img/button/icons.svg#good-icon"></use>
+            </svg>
+          </li>
+          <li class="good">
+            <a href="#" class="good-name">Образование</a>
+            <svg width="10" height="6" class="good-icon">
+              <use xlink:href="assets/img/button/icons.svg#good-icon"></use>
+            </svg>
+          </li>
+          <li class="good">
+            <a href="#" class="good-name">Стоматологам</a>
+            <svg width="10" height="6" class="good-icon">
+              <use xlink:href="assets/img/button/icons.svg#good-icon"></use>
+            </svg>
+          </li>
+          <li class="good">
+            <a href="#" class="good-name">Гаджеты</a>
+            <svg width="10" height="6" class="good-icon">
+              <use xlink:href="assets/img/button/icons.svg#good-icon"></use>
+            </svg>
+          </li>
+          <li class="good">
+            <a href="#" class="good-name">Материалы</a>
+            <svg width="10" height="6" class="good-icon">
+              <use xlink:href="assets/img/button/icons.svg#good-icon"></use>
+            </svg>
+          </li>
+          <li class="good">
+            <a href="#" class="good-name">ПО</a>
+            <svg width="10" height="6" class="good-icon">
+              <use xlink:href="assets/img/button/icons.svg#good-icon"></use>
+            </svg>
+          </li>
+          <li class="good">
+            <a href="#" class="good-name">Решения</a>
+            <svg width="10" height="6" class="good-icon">
+              <use xlink:href="assets/img/button/icons.svg#good-icon"></use>
+            </svg>
+          </li>
+          <li class="good">
+            <a href="#" class="good-name">Учебный центр</a>
+            <svg width="10" height="6" class="good-icon">
+              <use xlink:href="assets/img/button/icons.svg#good-icon"></use>
+            </svg>
+          </li>
+          <li class="good">
+            <a href="#" class="good-name">Услуги</a>
+            <svg width="10" height="6" class="good-icon">
+              <use xlink:href="assets/img/button/icons.svg#good-icon"></use>
+            </svg>
+          </li>
+        </ul>
+        <!-- <select name="printers" id="printers" class="goods">
+          <option value="" class="good">3D-принтеры</option>
+        </select>
+        <select name="scanners" id="scanners" class="goods">
+          <option value="" class="good">3D-сканеры</option>
+        </select>
+        <select name="machine" id="machine" class="goods">
+          <option value="" class="good">Станки</option>
+        </select>
+        <select name="robots" id="robots" class="goods">
+          <option value="" class="good">Роботы</option>
+        </select>
+        <select name="education" id="education" class="goods">
+          <option value="" class="good">Образование</option>
+        </select>
+        <select name="dentist" id="dentist" class="goods">
+          <option value="" class="good">Стоматологам</option>
+        </select>
+        <select name="gadgest" id="gadgest" class="goods">
+          <option value="" class="good">Гаджеты</option>
+        </select>
+        <select name="materials" id="materials" class="goods">
+          <option value="" class="good">Материалы</option>
+        </select>
+        <select name="software" id="software" class="goods">
+          <option value="" class="good">ПО</option>
+        </select>
+        <select name="solutions" id="solutions" class="goods">
+          <option value="" class="good">Решения</option>
+        </select>
+        <select name="center" id="center" class="goods">
+          <option value="" class="good">Учебный центр</option>
+        </select>
+        <select name="services" id="services" class="goods">
+          <option value="" class="good">Услуги</option>
+        </select> -->
+      </div>
+    </header>
+
+    
+
+    <section class="team">
+      <div class="container">
+        <img src="assets/img/bg/MaskGroup.png" alt="team photo" class="team-img">
+        <div class="your-job">
+          <div class="block-send">
+            <h2 class="job-block-send-title">
+              Твоя работа
+              в крупнейшем интеграторе 
+              цифрового производства
+            </h2>
+            <button class="send-resum-button">Отправить резюме</button>
+            <p class="warning">
+              Нажимая кнопку, вы соглашаетесь 
+              на обработку персональных данных.
+            </p>
+          </div>
+          <div class="job-description">
+            <p class="job-description-text">
+              Top 3D Shop – лидер по продажам 3D-оборудования в России и странах СНГ. 
+              В 2018 мы стали лучшим интегратором 3D оборудования по аддитивным 
+              технологиям и цифровому производству по версии <a href="#" class="red-link">3D Print Awards</a>.
+              <br>
+              <br>
+              За 6 лет работы более 10 000 клиентов по всей России и СНГ выбрали Top 
+              3D Shop. В 2018 наш оборот составил 600 млн. рублей, в компании 
+              работает более 100 сотрудников.
+              <br>
+              <br>
+              Новая цель: 1 млрд торгового оборота в этом году и выход на международные 
+              рынки. Если вы — целеустремленный специалист, готовый учиться новым 
+              навыкам и учить других, мыслите не просто как исполнитель, а как 
+              владелец своего направления, то нам по пути!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.team -->
+    <section class="about-company">
+      <div class="container">
+        <div class="about-company-more">
+        <h1 class="about-company-title">Лучше один раз увидеть:</h1>
+        <hr class="title-line">
+        </div>
+        <div class="about-company-sections">
+          <a href="#" class="about-company-section">
+            <span class="section-text">Как устроена компания изнутри</span>
+            <svg width="8" height="16" class="icon icon-arrow">
+              <use xlink:href="assets/img/button/icons.svg#arrow"></use>
+            </svg>
+          </a>
+          <a href="#" class="about-company-section">
+            <span class="section-text">Как создавалась компания - необычная история</span>
+            <svg width="8" height="16" class="icon icon-arrow">
+              <use xlink:href="assets/img/button/icons.svg#arrow"></use>
+            </svg>
+          </a>
+          <a href="#" class="about-company-section">
+            <span class="section-text">Читай о нас на 3D Today</span>
+            <svg width="8" height="16" class="icon icon-arrow">
+              <use xlink:href="assets/img/button/icons.svg#arrow"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="slider">
+      <div class="container">
+        <div class="swiper-container">
+          <h1 class="slider-title">Видео о нас</h1>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="assets/img/slider/MaskGroup_1.png" alt="slide one" class="slider-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/slider/MaskGroup_2.png" alt="slide two" class="slider-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/slider/MaskGroup_1.png" alt="slide three" class="slider-img">
+            </div>
+          </div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- script -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
